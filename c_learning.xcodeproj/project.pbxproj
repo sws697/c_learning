@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22AE2EF4272968950058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2EF3272968950058A82D /* main.c */; };
+		22AE2EF4272968950058A82D /* helloworld.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2EF3272968950058A82D /* helloworld.c */; };
+		22AE2F02272968FD0058A82D /* tiktactoe.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F01272968FD0058A82D /* tiktactoe.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,15 +21,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		22AE2EFD272968FD0058A82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		22AE2EF0272968950058A82D /* c_learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = c_learning; sourceTree = BUILT_PRODUCTS_DIR; };
-		22AE2EF3272968950058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22AE2EF3272968950058A82D /* helloworld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = helloworld.c; sourceTree = "<group>"; };
+		22AE2EFF272968FD0058A82D /* tiktactoe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tiktactoe; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE2F01272968FD0058A82D /* tiktactoe.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tiktactoe.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		22AE2EED272968950058A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2EFC272968FD0058A82D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				22AE2EF0272968950058A82D /* c_learning */,
+				22AE2EFF272968FD0058A82D /* tiktactoe */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +77,26 @@
 		22AE2EF2272968950058A82D /* c_learning */ = {
 			isa = PBXGroup;
 			children = (
-				22AE2EF3272968950058A82D /* main.c */,
+				22AE2EF3272968950058A82D /* helloworld.c */,
+				22AE2EFA272968B90058A82D /* array_learning */,
 			);
 			path = c_learning;
+			sourceTree = "<group>";
+		};
+		22AE2EFA272968B90058A82D /* array_learning */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F00272968FD0058A82D /* tiktactoe */,
+			);
+			path = array_learning;
+			sourceTree = "<group>";
+		};
+		22AE2F00272968FD0058A82D /* tiktactoe */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F01272968FD0058A82D /* tiktactoe.c */,
+			);
+			path = tiktactoe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +119,23 @@
 			productReference = 22AE2EF0272968950058A82D /* c_learning */;
 			productType = "com.apple.product-type.tool";
 		};
+		22AE2EFE272968FD0058A82D /* tiktactoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE2F03272968FD0058A82D /* Build configuration list for PBXNativeTarget "tiktactoe" */;
+			buildPhases = (
+				22AE2EFB272968FD0058A82D /* Sources */,
+				22AE2EFC272968FD0058A82D /* Frameworks */,
+				22AE2EFD272968FD0058A82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tiktactoe;
+			productName = tiktactoe;
+			productReference = 22AE2EFF272968FD0058A82D /* tiktactoe */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +146,9 @@
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					22AE2EEF272968950058A82D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					22AE2EFE272968FD0058A82D = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
@@ -110,6 +167,7 @@
 			projectRoot = "";
 			targets = (
 				22AE2EEF272968950058A82D /* c_learning */,
+				22AE2EFE272968FD0058A82D /* tiktactoe */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22AE2EF4272968950058A82D /* main.c in Sources */,
+				22AE2EF4272968950058A82D /* helloworld.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2EFB272968FD0058A82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE2F02272968FD0058A82D /* tiktactoe.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +323,26 @@
 			};
 			name = Release;
 		};
+		22AE2F04272968FD0058A82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE2F05272968FD0058A82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -274,6 +360,15 @@
 			buildConfigurations = (
 				22AE2EF8272968950058A82D /* Debug */,
 				22AE2EF9272968950058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE2F03272968FD0058A82D /* Build configuration list for PBXNativeTarget "tiktactoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE2F04272968FD0058A82D /* Debug */,
+				22AE2F05272968FD0058A82D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
