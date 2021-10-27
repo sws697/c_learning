@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		22AE2EF4272968950058A82D /* helloworld.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2EF3272968950058A82D /* helloworld.c */; };
 		22AE2F02272968FD0058A82D /* tiktactoe.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F01272968FD0058A82D /* tiktactoe.c */; };
+		22AE2F0D2729AEEA0058A82D /* 统计个数.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F0C2729AEEA0058A82D /* 统计个数.c */; };
+		22AE2F182729B6080058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F172729B6080058A82D /* main.c */; };
+		22AE2F242729BD940058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F232729BD940058A82D /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +33,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		22AE2F082729AEEA0058A82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		22AE2F132729B6080058A82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		22AE2F1F2729BD940058A82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +67,12 @@
 		22AE2EF3272968950058A82D /* helloworld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = helloworld.c; sourceTree = "<group>"; };
 		22AE2EFF272968FD0058A82D /* tiktactoe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tiktactoe; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AE2F01272968FD0058A82D /* tiktactoe.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tiktactoe.c; sourceTree = "<group>"; };
+		22AE2F0A2729AEEA0058A82D /* 统计个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "统计个数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE2F0C2729AEEA0058A82D /* 统计个数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "统计个数.c"; sourceTree = "<group>"; };
+		22AE2F152729B6080058A82D /* sin泰勒展开 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "sin泰勒展开"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE2F172729B6080058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22AE2F212729BD940058A82D /* my first goto programm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "my first goto programm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE2F232729BD940058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,13 +90,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22AE2F072729AEEA0058A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F122729B6080058A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F1E2729BD940058A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		22AE2EE7272968950058A82D = {
 			isa = PBXGroup;
 			children = (
+				22AE2F1C2729BD730058A82D /* goto风暴 */,
 				22AE2EF2272968950058A82D /* c_learning */,
+				22AE2F162729B6080058A82D /* sin泰勒展开 */,
 				22AE2EF1272968950058A82D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +129,9 @@
 			children = (
 				22AE2EF0272968950058A82D /* c_learning */,
 				22AE2EFF272968FD0058A82D /* tiktactoe */,
+				22AE2F0A2729AEEA0058A82D /* 统计个数 */,
+				22AE2F152729B6080058A82D /* sin泰勒展开 */,
+				22AE2F212729BD940058A82D /* my first goto programm */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +148,7 @@
 		22AE2EFA272968B90058A82D /* array_learning */ = {
 			isa = PBXGroup;
 			children = (
+				22AE2F0B2729AEEA0058A82D /* 统计个数 */,
 				22AE2F00272968FD0058A82D /* tiktactoe */,
 			);
 			path = array_learning;
@@ -97,6 +160,38 @@
 				22AE2F01272968FD0058A82D /* tiktactoe.c */,
 			);
 			path = tiktactoe;
+			sourceTree = "<group>";
+		};
+		22AE2F0B2729AEEA0058A82D /* 统计个数 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F0C2729AEEA0058A82D /* 统计个数.c */,
+			);
+			path = "统计个数";
+			sourceTree = "<group>";
+		};
+		22AE2F162729B6080058A82D /* sin泰勒展开 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F172729B6080058A82D /* main.c */,
+			);
+			path = "sin泰勒展开";
+			sourceTree = "<group>";
+		};
+		22AE2F1C2729BD730058A82D /* goto风暴 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F222729BD940058A82D /* my first goto programm */,
+			);
+			path = "goto风暴";
+			sourceTree = "<group>";
+		};
+		22AE2F222729BD940058A82D /* my first goto programm */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F232729BD940058A82D /* main.c */,
+			);
+			path = "my first goto programm";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +231,57 @@
 			productReference = 22AE2EFF272968FD0058A82D /* tiktactoe */;
 			productType = "com.apple.product-type.tool";
 		};
+		22AE2F092729AEEA0058A82D /* 统计个数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE2F0E2729AEEA0058A82D /* Build configuration list for PBXNativeTarget "统计个数" */;
+			buildPhases = (
+				22AE2F062729AEEA0058A82D /* Sources */,
+				22AE2F072729AEEA0058A82D /* Frameworks */,
+				22AE2F082729AEEA0058A82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "统计个数";
+			productName = "统计个数";
+			productReference = 22AE2F0A2729AEEA0058A82D /* 统计个数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		22AE2F142729B6080058A82D /* sin泰勒展开 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE2F192729B6080058A82D /* Build configuration list for PBXNativeTarget "sin泰勒展开" */;
+			buildPhases = (
+				22AE2F112729B6080058A82D /* Sources */,
+				22AE2F122729B6080058A82D /* Frameworks */,
+				22AE2F132729B6080058A82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sin泰勒展开";
+			productName = "sin泰勒展开";
+			productReference = 22AE2F152729B6080058A82D /* sin泰勒展开 */;
+			productType = "com.apple.product-type.tool";
+		};
+		22AE2F202729BD940058A82D /* my first goto programm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE2F252729BD940058A82D /* Build configuration list for PBXNativeTarget "my first goto programm" */;
+			buildPhases = (
+				22AE2F1D2729BD940058A82D /* Sources */,
+				22AE2F1E2729BD940058A82D /* Frameworks */,
+				22AE2F1F2729BD940058A82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "my first goto programm";
+			productName = "my first goto programm";
+			productReference = 22AE2F212729BD940058A82D /* my first goto programm */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +295,15 @@
 						CreatedOnToolsVersion = 13.0;
 					};
 					22AE2EFE272968FD0058A82D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					22AE2F092729AEEA0058A82D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					22AE2F142729B6080058A82D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					22AE2F202729BD940058A82D = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
@@ -168,6 +323,9 @@
 			targets = (
 				22AE2EEF272968950058A82D /* c_learning */,
 				22AE2EFE272968FD0058A82D /* tiktactoe */,
+				22AE2F092729AEEA0058A82D /* 统计个数 */,
+				22AE2F142729B6080058A82D /* sin泰勒展开 */,
+				22AE2F202729BD940058A82D /* my first goto programm */,
 			);
 		};
 /* End PBXProject section */
@@ -186,6 +344,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				22AE2F02272968FD0058A82D /* tiktactoe.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F062729AEEA0058A82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE2F0D2729AEEA0058A82D /* 统计个数.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F112729B6080058A82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE2F182729B6080058A82D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F1D2729BD940058A82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE2F242729BD940058A82D /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +525,66 @@
 			};
 			name = Release;
 		};
+		22AE2F0F2729AEEA0058A82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE2F102729AEEA0058A82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22AE2F1A2729B6080058A82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE2F1B2729B6080058A82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22AE2F262729BD940058A82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE2F272729BD940058A82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -369,6 +611,33 @@
 			buildConfigurations = (
 				22AE2F04272968FD0058A82D /* Debug */,
 				22AE2F05272968FD0058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE2F0E2729AEEA0058A82D /* Build configuration list for PBXNativeTarget "统计个数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE2F0F2729AEEA0058A82D /* Debug */,
+				22AE2F102729AEEA0058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE2F192729B6080058A82D /* Build configuration list for PBXNativeTarget "sin泰勒展开" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE2F1A2729B6080058A82D /* Debug */,
+				22AE2F1B2729B6080058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE2F252729BD940058A82D /* Build configuration list for PBXNativeTarget "my first goto programm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE2F262729BD940058A82D /* Debug */,
+				22AE2F272729BD940058A82D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
