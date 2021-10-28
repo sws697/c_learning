@@ -12,6 +12,14 @@
 		22AE2F0D2729AEEA0058A82D /* 统计个数.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F0C2729AEEA0058A82D /* 统计个数.c */; };
 		22AE2F182729B6080058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F172729B6080058A82D /* main.c */; };
 		22AE2F242729BD940058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F232729BD940058A82D /* main.c */; };
+		22AE2F2F2729BF560058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F2E2729BF560058A82D /* main.c */; };
+		22AE2F3B272A1BB50058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F3A272A1BB50058A82D /* main.c */; };
+		22AE2F46272A1F350058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F45272A1F350058A82D /* main.c */; };
+		22AE2F51272A27A30058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F50272A27A30058A82D /* main.c */; };
+		22AE2F5C272A418B0058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F5B272A418B0058A82D /* main.c */; };
+		22AE2F68272A49BF0058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F67272A49BF0058A82D /* main.c */; };
+		22AE2F73272A53E20058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F72272A53E20058A82D /* main.c */; };
+		22AE2F7E272A57D30058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F7D272A57D30058A82D /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +68,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		22AE2F2A2729BF560058A82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		22AE2F36272A1BB50058A82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		22AE2F41272A1F350058A82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		22AE2F4C272A27A30058A82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		22AE2F57272A418B0058A82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		22AE2F63272A49BF0058A82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		22AE2F6E272A53E20058A82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		22AE2F79272A57D30058A82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +153,22 @@
 		22AE2F172729B6080058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		22AE2F212729BD940058A82D /* my first goto programm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "my first goto programm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AE2F232729BD940058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22AE2F2C2729BF560058A82D /* 辗转相除求最大公约数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "辗转相除求最大公约数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE2F2E2729BF560058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22AE2F38272A1BB50058A82D /* 求数字位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "求数字位数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE2F3A272A1BB50058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22AE2F43272A1F350058A82D /* 数字拆分 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数字拆分"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE2F45272A1F350058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22AE2F4E272A27A30058A82D /* 位数对调 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "位数对调"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE2F50272A27A30058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22AE2F59272A418B0058A82D /* 符合要求的数字 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "符合要求的数字"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE2F5B272A418B0058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22AE2F65272A49BF0058A82D /* 同构数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "同构数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE2F67272A49BF0058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22AE2F70272A53E20058A82D /* 鸡兔同笼高级版 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "鸡兔同笼高级版"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE2F72272A53E20058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22AE2F7B272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "你上机考试做对了多少道题你心里没点b数吗？"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE2F7D272A57D30058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,15 +207,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22AE2F292729BF560058A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F35272A1BB50058A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F40272A1F350058A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F4B272A27A30058A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F56272A418B0058A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F62272A49BF0058A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F6D272A53E20058A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F78272A57D30058A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		22AE2EE7272968950058A82D = {
 			isa = PBXGroup;
 			children = (
+				22AE2F60272A49650058A82D /* 5th计导作业 */,
+				22AE2F33272A1B7F0058A82D /* 迭代算法 */,
 				22AE2F1C2729BD730058A82D /* goto风暴 */,
 				22AE2EF2272968950058A82D /* c_learning */,
-				22AE2F162729B6080058A82D /* sin泰勒展开 */,
 				22AE2EF1272968950058A82D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,6 +285,14 @@
 				22AE2F0A2729AEEA0058A82D /* 统计个数 */,
 				22AE2F152729B6080058A82D /* sin泰勒展开 */,
 				22AE2F212729BD940058A82D /* my first goto programm */,
+				22AE2F2C2729BF560058A82D /* 辗转相除求最大公约数 */,
+				22AE2F38272A1BB50058A82D /* 求数字位数 */,
+				22AE2F43272A1F350058A82D /* 数字拆分 */,
+				22AE2F4E272A27A30058A82D /* 位数对调 */,
+				22AE2F59272A418B0058A82D /* 符合要求的数字 */,
+				22AE2F65272A49BF0058A82D /* 同构数 */,
+				22AE2F70272A53E20058A82D /* 鸡兔同笼高级版 */,
+				22AE2F7B272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,6 +353,93 @@
 				22AE2F232729BD940058A82D /* main.c */,
 			);
 			path = "my first goto programm";
+			sourceTree = "<group>";
+		};
+		22AE2F2D2729BF560058A82D /* 辗转相除求最大公约数 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F2E2729BF560058A82D /* main.c */,
+			);
+			path = "辗转相除求最大公约数";
+			sourceTree = "<group>";
+		};
+		22AE2F33272A1B7F0058A82D /* 迭代算法 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F2D2729BF560058A82D /* 辗转相除求最大公约数 */,
+				22AE2F162729B6080058A82D /* sin泰勒展开 */,
+			);
+			path = "迭代算法";
+			sourceTree = "<group>";
+		};
+		22AE2F39272A1BB50058A82D /* 求数字位数 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F3A272A1BB50058A82D /* main.c */,
+			);
+			path = "求数字位数";
+			sourceTree = "<group>";
+		};
+		22AE2F44272A1F350058A82D /* 数字拆分 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F45272A1F350058A82D /* main.c */,
+			);
+			path = "数字拆分";
+			sourceTree = "<group>";
+		};
+		22AE2F4F272A27A30058A82D /* 位数对调 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F50272A27A30058A82D /* main.c */,
+			);
+			path = "位数对调";
+			sourceTree = "<group>";
+		};
+		22AE2F5A272A418B0058A82D /* 符合要求的数字 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F5B272A418B0058A82D /* main.c */,
+			);
+			path = "符合要求的数字";
+			sourceTree = "<group>";
+		};
+		22AE2F60272A49650058A82D /* 5th计导作业 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F7C272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */,
+				22AE2F71272A53E20058A82D /* 鸡兔同笼高级版 */,
+				22AE2F66272A49BF0058A82D /* 同构数 */,
+				22AE2F5A272A418B0058A82D /* 符合要求的数字 */,
+				22AE2F4F272A27A30058A82D /* 位数对调 */,
+				22AE2F44272A1F350058A82D /* 数字拆分 */,
+				22AE2F39272A1BB50058A82D /* 求数字位数 */,
+			);
+			path = "5th计导作业";
+			sourceTree = "<group>";
+		};
+		22AE2F66272A49BF0058A82D /* 同构数 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F67272A49BF0058A82D /* main.c */,
+			);
+			path = "同构数";
+			sourceTree = "<group>";
+		};
+		22AE2F71272A53E20058A82D /* 鸡兔同笼高级版 */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F72272A53E20058A82D /* main.c */,
+			);
+			path = "鸡兔同笼高级版";
+			sourceTree = "<group>";
+		};
+		22AE2F7C272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */ = {
+			isa = PBXGroup;
+			children = (
+				22AE2F7D272A57D30058A82D /* main.c */,
+			);
+			path = "你上机考试做对了多少道题你心里没点b数吗？";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +530,142 @@
 			productReference = 22AE2F212729BD940058A82D /* my first goto programm */;
 			productType = "com.apple.product-type.tool";
 		};
+		22AE2F2B2729BF560058A82D /* 辗转相除求最大公约数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE2F302729BF560058A82D /* Build configuration list for PBXNativeTarget "辗转相除求最大公约数" */;
+			buildPhases = (
+				22AE2F282729BF560058A82D /* Sources */,
+				22AE2F292729BF560058A82D /* Frameworks */,
+				22AE2F2A2729BF560058A82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "辗转相除求最大公约数";
+			productName = "辗转相除求最大公约数";
+			productReference = 22AE2F2C2729BF560058A82D /* 辗转相除求最大公约数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		22AE2F37272A1BB50058A82D /* 求数字位数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE2F3C272A1BB50058A82D /* Build configuration list for PBXNativeTarget "求数字位数" */;
+			buildPhases = (
+				22AE2F34272A1BB50058A82D /* Sources */,
+				22AE2F35272A1BB50058A82D /* Frameworks */,
+				22AE2F36272A1BB50058A82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "求数字位数";
+			productName = "求数字位数";
+			productReference = 22AE2F38272A1BB50058A82D /* 求数字位数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		22AE2F42272A1F350058A82D /* 数字拆分 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE2F47272A1F350058A82D /* Build configuration list for PBXNativeTarget "数字拆分" */;
+			buildPhases = (
+				22AE2F3F272A1F350058A82D /* Sources */,
+				22AE2F40272A1F350058A82D /* Frameworks */,
+				22AE2F41272A1F350058A82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数字拆分";
+			productName = "数字拆分";
+			productReference = 22AE2F43272A1F350058A82D /* 数字拆分 */;
+			productType = "com.apple.product-type.tool";
+		};
+		22AE2F4D272A27A30058A82D /* 位数对调 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE2F52272A27A30058A82D /* Build configuration list for PBXNativeTarget "位数对调" */;
+			buildPhases = (
+				22AE2F4A272A27A30058A82D /* Sources */,
+				22AE2F4B272A27A30058A82D /* Frameworks */,
+				22AE2F4C272A27A30058A82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "位数对调";
+			productName = "位数对调";
+			productReference = 22AE2F4E272A27A30058A82D /* 位数对调 */;
+			productType = "com.apple.product-type.tool";
+		};
+		22AE2F58272A418B0058A82D /* 符合要求的数字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE2F5D272A418B0058A82D /* Build configuration list for PBXNativeTarget "符合要求的数字" */;
+			buildPhases = (
+				22AE2F55272A418B0058A82D /* Sources */,
+				22AE2F56272A418B0058A82D /* Frameworks */,
+				22AE2F57272A418B0058A82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "符合要求的数字";
+			productName = "符合要求的数字";
+			productReference = 22AE2F59272A418B0058A82D /* 符合要求的数字 */;
+			productType = "com.apple.product-type.tool";
+		};
+		22AE2F64272A49BF0058A82D /* 同构数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE2F69272A49BF0058A82D /* Build configuration list for PBXNativeTarget "同构数" */;
+			buildPhases = (
+				22AE2F61272A49BF0058A82D /* Sources */,
+				22AE2F62272A49BF0058A82D /* Frameworks */,
+				22AE2F63272A49BF0058A82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "同构数";
+			productName = "同构数";
+			productReference = 22AE2F65272A49BF0058A82D /* 同构数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		22AE2F6F272A53E20058A82D /* 鸡兔同笼高级版 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE2F74272A53E20058A82D /* Build configuration list for PBXNativeTarget "鸡兔同笼高级版" */;
+			buildPhases = (
+				22AE2F6C272A53E20058A82D /* Sources */,
+				22AE2F6D272A53E20058A82D /* Frameworks */,
+				22AE2F6E272A53E20058A82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "鸡兔同笼高级版";
+			productName = "鸡兔同笼高级版";
+			productReference = 22AE2F70272A53E20058A82D /* 鸡兔同笼高级版 */;
+			productType = "com.apple.product-type.tool";
+		};
+		22AE2F7A272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE2F7F272A57D40058A82D /* Build configuration list for PBXNativeTarget "你上机考试做对了多少道题你心里没点b数吗？" */;
+			buildPhases = (
+				22AE2F77272A57D30058A82D /* Sources */,
+				22AE2F78272A57D30058A82D /* Frameworks */,
+				22AE2F79272A57D30058A82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "你上机考试做对了多少道题你心里没点b数吗？";
+			productName = "你上机考试做对了多少道题你心里没点b数吗？";
+			productReference = 22AE2F7B272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -306,6 +690,30 @@
 					22AE2F202729BD940058A82D = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					22AE2F2B2729BF560058A82D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					22AE2F37272A1BB50058A82D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					22AE2F42272A1F350058A82D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					22AE2F4D272A27A30058A82D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					22AE2F58272A418B0058A82D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					22AE2F64272A49BF0058A82D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					22AE2F6F272A53E20058A82D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					22AE2F7A272A57D30058A82D = {
+						CreatedOnToolsVersion = 13.0;
+					};
 				};
 			};
 			buildConfigurationList = 22AE2EEB272968950058A82D /* Build configuration list for PBXProject "c_learning" */;
@@ -326,6 +734,14 @@
 				22AE2F092729AEEA0058A82D /* 统计个数 */,
 				22AE2F142729B6080058A82D /* sin泰勒展开 */,
 				22AE2F202729BD940058A82D /* my first goto programm */,
+				22AE2F2B2729BF560058A82D /* 辗转相除求最大公约数 */,
+				22AE2F37272A1BB50058A82D /* 求数字位数 */,
+				22AE2F42272A1F350058A82D /* 数字拆分 */,
+				22AE2F4D272A27A30058A82D /* 位数对调 */,
+				22AE2F58272A418B0058A82D /* 符合要求的数字 */,
+				22AE2F64272A49BF0058A82D /* 同构数 */,
+				22AE2F6F272A53E20058A82D /* 鸡兔同笼高级版 */,
+				22AE2F7A272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */,
 			);
 		};
 /* End PBXProject section */
@@ -368,6 +784,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				22AE2F242729BD940058A82D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F282729BF560058A82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE2F2F2729BF560058A82D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F34272A1BB50058A82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE2F3B272A1BB50058A82D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F3F272A1F350058A82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE2F46272A1F350058A82D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F4A272A27A30058A82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE2F51272A27A30058A82D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F55272A418B0058A82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE2F5C272A418B0058A82D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F61272A49BF0058A82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE2F68272A49BF0058A82D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F6C272A53E20058A82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE2F73272A53E20058A82D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE2F77272A57D30058A82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE2F7E272A57D30058A82D /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +1065,166 @@
 			};
 			name = Release;
 		};
+		22AE2F312729BF560058A82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE2F322729BF560058A82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22AE2F3D272A1BB50058A82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE2F3E272A1BB50058A82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22AE2F48272A1F350058A82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE2F49272A1F350058A82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22AE2F53272A27A30058A82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE2F54272A27A30058A82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22AE2F5E272A418B0058A82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE2F5F272A418B0058A82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22AE2F6A272A49BF0058A82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE2F6B272A49BF0058A82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22AE2F75272A53E20058A82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE2F76272A53E20058A82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22AE2F80272A57D40058A82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE2F81272A57D40058A82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -638,6 +1278,78 @@
 			buildConfigurations = (
 				22AE2F262729BD940058A82D /* Debug */,
 				22AE2F272729BD940058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE2F302729BF560058A82D /* Build configuration list for PBXNativeTarget "辗转相除求最大公约数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE2F312729BF560058A82D /* Debug */,
+				22AE2F322729BF560058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE2F3C272A1BB50058A82D /* Build configuration list for PBXNativeTarget "求数字位数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE2F3D272A1BB50058A82D /* Debug */,
+				22AE2F3E272A1BB50058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE2F47272A1F350058A82D /* Build configuration list for PBXNativeTarget "数字拆分" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE2F48272A1F350058A82D /* Debug */,
+				22AE2F49272A1F350058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE2F52272A27A30058A82D /* Build configuration list for PBXNativeTarget "位数对调" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE2F53272A27A30058A82D /* Debug */,
+				22AE2F54272A27A30058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE2F5D272A418B0058A82D /* Build configuration list for PBXNativeTarget "符合要求的数字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE2F5E272A418B0058A82D /* Debug */,
+				22AE2F5F272A418B0058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE2F69272A49BF0058A82D /* Build configuration list for PBXNativeTarget "同构数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE2F6A272A49BF0058A82D /* Debug */,
+				22AE2F6B272A49BF0058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE2F74272A53E20058A82D /* Build configuration list for PBXNativeTarget "鸡兔同笼高级版" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE2F75272A53E20058A82D /* Debug */,
+				22AE2F76272A53E20058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE2F7F272A57D40058A82D /* Build configuration list for PBXNativeTarget "你上机考试做对了多少道题你心里没点b数吗？" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE2F80272A57D40058A82D /* Debug */,
+				22AE2F81272A57D40058A82D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
