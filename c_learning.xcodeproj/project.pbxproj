@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221A2455272D14E100962808 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 221A2454272D14E100962808 /* main.c */; };
+		2247DD682730CBDD00B0C9CA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2247DD672730CBDD00B0C9CA /* main.c */; };
 		22AE2EF4272968950058A82D /* helloworld.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2EF3272968950058A82D /* helloworld.c */; };
 		22AE2F02272968FD0058A82D /* tiktactoe.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F01272968FD0058A82D /* tiktactoe.c */; };
 		22AE2F0D2729AEEA0058A82D /* 统计个数.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F0C2729AEEA0058A82D /* 统计个数.c */; };
@@ -23,6 +25,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		221A2450272D14E100962808 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2247DD632730CBDD00B0C9CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		22AE2EEE272968950058A82D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -143,6 +163,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		221A2452272D14E100962808 /* 你上机考试做对多少道题心里没点B数吗三重循环版 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "你上机考试做对多少道题心里没点B数吗三重循环版"; sourceTree = BUILT_PRODUCTS_DIR; };
+		221A2454272D14E100962808 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2247DD652730CBDD00B0C9CA /* 斐波那契数列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "斐波那契数列"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2247DD672730CBDD00B0C9CA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		22AE2EF0272968950058A82D /* c_learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = c_learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AE2EF3272968950058A82D /* helloworld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = helloworld.c; sourceTree = "<group>"; };
 		22AE2EFF272968FD0058A82D /* tiktactoe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tiktactoe; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +196,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		221A244F272D14E100962808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2247DD622730CBDD00B0C9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22AE2EED272968950058A82D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,9 +304,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221A2453272D14E100962808 /* 你上机考试做对多少道题心里没点B数吗三重循环版(暴力求解) */ = {
+			isa = PBXGroup;
+			children = (
+				221A2454272D14E100962808 /* main.c */,
+			);
+			path = "你上机考试做对多少道题心里没点B数吗三重循环版(暴力求解)";
+			sourceTree = "<group>";
+		};
+		2247DD602730CBB800B0C9CA /* 递归算法 */ = {
+			isa = PBXGroup;
+			children = (
+				2247DD662730CBDD00B0C9CA /* 斐波那契数列 */,
+			);
+			path = "递归算法";
+			sourceTree = "<group>";
+		};
+		2247DD662730CBDD00B0C9CA /* 斐波那契数列 */ = {
+			isa = PBXGroup;
+			children = (
+				2247DD672730CBDD00B0C9CA /* main.c */,
+			);
+			path = "斐波那契数列";
+			sourceTree = "<group>";
+		};
 		22AE2EE7272968950058A82D = {
 			isa = PBXGroup;
 			children = (
+				2247DD602730CBB800B0C9CA /* 递归算法 */,
 				22AE2F60272A49650058A82D /* 5th计导作业 */,
 				22AE2F33272A1B7F0058A82D /* 迭代算法 */,
 				22AE2F1C2729BD730058A82D /* goto风暴 */,
@@ -293,6 +356,8 @@
 				22AE2F65272A49BF0058A82D /* 同构数 */,
 				22AE2F70272A53E20058A82D /* 鸡兔同笼高级版 */,
 				22AE2F7B272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */,
+				221A2452272D14E100962808 /* 你上机考试做对多少道题心里没点B数吗三重循环版 */,
+				2247DD652730CBDD00B0C9CA /* 斐波那契数列 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -437,6 +502,7 @@
 		22AE2F7C272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */ = {
 			isa = PBXGroup;
 			children = (
+				221A2453272D14E100962808 /* 你上机考试做对多少道题心里没点B数吗三重循环版(暴力求解) */,
 				22AE2F7D272A57D30058A82D /* main.c */,
 			);
 			path = "你上机考试做对了多少道题你心里没点b数吗？";
@@ -445,6 +511,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		221A2451272D14E100962808 /* 你上机考试做对多少道题心里没点B数吗三重循环版 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221A2458272D14E100962808 /* Build configuration list for PBXNativeTarget "你上机考试做对多少道题心里没点B数吗三重循环版" */;
+			buildPhases = (
+				221A244E272D14E100962808 /* Sources */,
+				221A244F272D14E100962808 /* Frameworks */,
+				221A2450272D14E100962808 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "你上机考试做对多少道题心里没点B数吗三重循环版";
+			productName = "你上机考试做对多少道题心里没点B数吗三重循环版";
+			productReference = 221A2452272D14E100962808 /* 你上机考试做对多少道题心里没点B数吗三重循环版 */;
+			productType = "com.apple.product-type.tool";
+		};
+		2247DD642730CBDD00B0C9CA /* 斐波那契数列 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2247DD692730CBDD00B0C9CA /* Build configuration list for PBXNativeTarget "斐波那契数列" */;
+			buildPhases = (
+				2247DD612730CBDD00B0C9CA /* Sources */,
+				2247DD622730CBDD00B0C9CA /* Frameworks */,
+				2247DD632730CBDD00B0C9CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "斐波那契数列";
+			productName = "斐波那契数列";
+			productReference = 2247DD652730CBDD00B0C9CA /* 斐波那契数列 */;
+			productType = "com.apple.product-type.tool";
+		};
 		22AE2EEF272968950058A82D /* c_learning */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22AE2EF7272968950058A82D /* Build configuration list for PBXNativeTarget "c_learning" */;
@@ -675,6 +775,12 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					221A2451272D14E100962808 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					2247DD642730CBDD00B0C9CA = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					22AE2EEF272968950058A82D = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -742,11 +848,29 @@
 				22AE2F64272A49BF0058A82D /* 同构数 */,
 				22AE2F6F272A53E20058A82D /* 鸡兔同笼高级版 */,
 				22AE2F7A272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */,
+				221A2451272D14E100962808 /* 你上机考试做对多少道题心里没点B数吗三重循环版 */,
+				2247DD642730CBDD00B0C9CA /* 斐波那契数列 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		221A244E272D14E100962808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221A2455272D14E100962808 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2247DD612730CBDD00B0C9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2247DD682730CBDD00B0C9CA /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22AE2EEC272968950058A82D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -854,6 +978,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		221A2456272D14E100962808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		221A2457272D14E100962808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2247DD6A2730CBDD00B0C9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2247DD6B2730CBDD00B0C9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		22AE2EF5272968950058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1228,6 +1394,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		221A2458272D14E100962808 /* Build configuration list for PBXNativeTarget "你上机考试做对多少道题心里没点B数吗三重循环版" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221A2456272D14E100962808 /* Debug */,
+				221A2457272D14E100962808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2247DD692730CBDD00B0C9CA /* Build configuration list for PBXNativeTarget "斐波那契数列" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2247DD6A2730CBDD00B0C9CA /* Debug */,
+				2247DD6B2730CBDD00B0C9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		22AE2EEB272968950058A82D /* Build configuration list for PBXProject "c_learning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
