@@ -1,23 +1,26 @@
 //
 //  main.c
-//  斐波那契数列
+//  求N！
 //
 //  Created by 汪航 on 2021/11/2.
 //
 
 #include <stdio.h>
-long fib(long n)
+long factorial(long n)
 {
-    if (n==1||n==2) {
-        return n;
+    long t;
+    if (n==1) {
+        t=1;
     }
-    else {
-        return fib(n-2)+fib(n-1);
+    else
+    {
+        t=n*factorial(n-1);
     }
+    return t;
 }
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
-    printf("%ld",fib(42));
+    printf("%ld",factorial(7));
     return 0;
 }

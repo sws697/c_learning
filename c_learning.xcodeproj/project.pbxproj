@@ -22,6 +22,7 @@
 		22AE2F68272A49BF0058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F67272A49BF0058A82D /* main.c */; };
 		22AE2F73272A53E20058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F72272A53E20058A82D /* main.c */; };
 		22AE2F7E272A57D30058A82D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22AE2F7D272A57D30058A82D /* main.c */; };
+		22D14CB02730CF1400CE3799 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22D14CAF2730CF1400CE3799 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -160,6 +161,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		22D14CAB2730CF1400CE3799 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -193,6 +203,8 @@
 		22AE2F72272A53E20058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		22AE2F7B272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "你上机考试做对了多少道题你心里没点b数吗？"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AE2F7D272A57D30058A82D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22D14CAD2730CF1400CE3799 /* 求N！ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "求N！"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D14CAF2730CF1400CE3799 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,6 +313,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22D14CAA2730CF1400CE3799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -315,6 +334,7 @@
 		2247DD602730CBB800B0C9CA /* 递归算法 */ = {
 			isa = PBXGroup;
 			children = (
+				22D14CAE2730CF1400CE3799 /* 求N！ */,
 				2247DD662730CBDD00B0C9CA /* 斐波那契数列 */,
 			);
 			path = "递归算法";
@@ -358,6 +378,7 @@
 				22AE2F7B272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */,
 				221A2452272D14E100962808 /* 你上机考试做对多少道题心里没点B数吗三重循环版 */,
 				2247DD652730CBDD00B0C9CA /* 斐波那契数列 */,
+				22D14CAD2730CF1400CE3799 /* 求N！ */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -506,6 +527,14 @@
 				22AE2F7D272A57D30058A82D /* main.c */,
 			);
 			path = "你上机考试做对了多少道题你心里没点b数吗？";
+			sourceTree = "<group>";
+		};
+		22D14CAE2730CF1400CE3799 /* 求N！ */ = {
+			isa = PBXGroup;
+			children = (
+				22D14CAF2730CF1400CE3799 /* main.c */,
+			);
+			path = "求N！";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -766,6 +795,23 @@
 			productReference = 22AE2F7B272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */;
 			productType = "com.apple.product-type.tool";
 		};
+		22D14CAC2730CF1400CE3799 /* 求N！ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D14CB32730CF1400CE3799 /* Build configuration list for PBXNativeTarget "求N！" */;
+			buildPhases = (
+				22D14CA92730CF1400CE3799 /* Sources */,
+				22D14CAA2730CF1400CE3799 /* Frameworks */,
+				22D14CAB2730CF1400CE3799 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "求N！";
+			productName = "求N！";
+			productReference = 22D14CAD2730CF1400CE3799 /* 求N！ */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -773,7 +819,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					221A2451272D14E100962808 = {
 						CreatedOnToolsVersion = 13.0;
@@ -820,6 +866,9 @@
 					22AE2F7A272A57D30058A82D = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					22D14CAC2730CF1400CE3799 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 				};
 			};
 			buildConfigurationList = 22AE2EEB272968950058A82D /* Build configuration list for PBXProject "c_learning" */;
@@ -850,6 +899,7 @@
 				22AE2F7A272A57D30058A82D /* 你上机考试做对了多少道题你心里没点b数吗？ */,
 				221A2451272D14E100962808 /* 你上机考试做对多少道题心里没点B数吗三重循环版 */,
 				2247DD642730CBDD00B0C9CA /* 斐波那契数列 */,
+				22D14CAC2730CF1400CE3799 /* 求N！ */,
 			);
 		};
 /* End PBXProject section */
@@ -975,12 +1025,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22D14CA92730CF1400CE3799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D14CB02730CF1400CE3799 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		221A2456272D14E100962808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -991,6 +1050,7 @@
 		221A2457272D14E100962808 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1001,6 +1061,7 @@
 		2247DD6A2730CBDD00B0C9CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1012,6 +1073,7 @@
 		2247DD6B2730CBDD00B0C9CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1134,6 +1196,7 @@
 		22AE2EF8272968950058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1144,6 +1207,7 @@
 		22AE2EF9272968950058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1154,6 +1218,7 @@
 		22AE2F04272968FD0058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1164,6 +1229,7 @@
 		22AE2F05272968FD0058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1174,6 +1240,7 @@
 		22AE2F0F2729AEEA0058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1184,6 +1251,7 @@
 		22AE2F102729AEEA0058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1194,6 +1262,7 @@
 		22AE2F1A2729B6080058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1204,6 +1273,7 @@
 		22AE2F1B2729B6080058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1214,6 +1284,7 @@
 		22AE2F262729BD940058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1224,6 +1295,7 @@
 		22AE2F272729BD940058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1234,6 +1306,7 @@
 		22AE2F312729BF560058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1244,6 +1317,7 @@
 		22AE2F322729BF560058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1254,6 +1328,7 @@
 		22AE2F3D272A1BB50058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1264,6 +1339,7 @@
 		22AE2F3E272A1BB50058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1274,6 +1350,7 @@
 		22AE2F48272A1F350058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1284,6 +1361,7 @@
 		22AE2F49272A1F350058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1294,6 +1372,7 @@
 		22AE2F53272A27A30058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1304,6 +1383,7 @@
 		22AE2F54272A27A30058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1314,6 +1394,7 @@
 		22AE2F5E272A418B0058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1324,6 +1405,7 @@
 		22AE2F5F272A418B0058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1334,6 +1416,7 @@
 		22AE2F6A272A49BF0058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1344,6 +1427,7 @@
 		22AE2F6B272A49BF0058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1354,6 +1438,7 @@
 		22AE2F75272A53E20058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1364,6 +1449,7 @@
 		22AE2F76272A53E20058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1374,6 +1460,7 @@
 		22AE2F80272A57D40058A82D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1384,9 +1471,34 @@
 		22AE2F81272A57D40058A82D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42F2T24ABG;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22D14CB12730CF1400CE3799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22D14CB22730CF1400CE3799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42F2T24ABG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1534,6 +1646,15 @@
 			buildConfigurations = (
 				22AE2F80272A57D40058A82D /* Debug */,
 				22AE2F81272A57D40058A82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D14CB32730CF1400CE3799 /* Build configuration list for PBXNativeTarget "求N！" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D14CB12730CF1400CE3799 /* Debug */,
+				22D14CB22730CF1400CE3799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
