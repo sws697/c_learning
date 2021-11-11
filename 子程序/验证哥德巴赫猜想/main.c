@@ -10,7 +10,7 @@
 int isprime(int a)
 {
     int isprime=1;
-    for (int i=2; i<sqrt(a); i++) {
+    for (int i=2; i<=sqrt(a); i++) {
         if (a%i==0) {
             isprime=0;
             break;

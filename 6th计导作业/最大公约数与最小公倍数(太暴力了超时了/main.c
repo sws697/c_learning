@@ -3,7 +3,12 @@
 //  最大公约数与最小公倍数
 //
 //  Created by 汪航 on 2021/11/6.
-//
+//mingongbei=m*n/maxgongyue
+//两个数的乘积等于这两个数的最大公约数与最小公倍数的乘积。
+//分析：假设两个数为 a和b,他们的最大公约数是a/c,
+//那么他们的最小公倍数为 (a/c) * a/(a/c) * b/(a/c)。
+//化简后得： b*c
+//所以 最大公约数 乘以 最小公倍数 = (a/c) * (b*c) =a*b
 
 #include <stdio.h>
 int maxgongyue(int m,int n);
@@ -13,8 +18,9 @@ int main(int argc, const char * argv[]) {
     int m=0;
     int n=0;
     scanf("%d %d",&m,&n);
-    printf("%d ",maxgongyue(m, n));
-    printf("%d",mingongbei(m, n));
+    int c=maxgongyue(m, n);
+    printf("%d ",c);
+    printf("%d",m*n/c);
     return 0;
 }
 int maxgongyue(int m,int n)

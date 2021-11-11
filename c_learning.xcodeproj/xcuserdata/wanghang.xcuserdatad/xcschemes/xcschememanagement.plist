@@ -9,6 +9,31 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>circle division.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
+		<key>exp(x).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
+		<key>hanxindianbing.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
+		<key>huiwen.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
+		<key>lookfor fortune.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>33</integer>
+		</dict>
 		<key>my first goto programm.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -24,6 +49,16 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>二进制的前导的零.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
+		<key>二进制转十进制.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
 		<key>位数对调.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +73,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>18</integer>
+		</dict>
+		<key>公约数与公倍数（尽量不超时.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
 		</dict>
 		<key>判断素数.xcscheme_^#shared#^_</key>
 		<dict>
@@ -84,6 +124,16 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>求组合数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
+		<key>爬动的蠕虫.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
 		<key>符合要求的数字.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -94,6 +144,11 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
+		<key>设计函数isPerfect与printPerfect.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>32</integer>
+		</dict>
 		<key>谁说对了？.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -103,6 +158,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>12</integer>
+		</dict>
+		<key>进制转换.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
 		</dict>
 		<key>验证哥德巴赫猜想.xcscheme_^#shared#^_</key>
 		<dict>
